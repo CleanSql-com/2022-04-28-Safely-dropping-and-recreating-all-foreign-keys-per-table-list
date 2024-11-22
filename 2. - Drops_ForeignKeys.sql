@@ -11,7 +11,8 @@ GO
 /* ==================================================================================================================== */
 /* Author:      CleanSql.com ©                                                                                          */
 /* Create date: 2022-04-28                                                                                              */
-/* Description: Drops ForeignKeys collcted in [dbo].[_ForeignKeyConstraintDefinitions]                                  */
+/* Description: Drops or Recreates ForeignKeys collcted in [dbo].[_ForeignKeyConstraintDefinitions]                     */
+/* 				Drops if @Drop = 1, Recreates if @Recreate = 1                     										*/
 /* ==================================================================================================================== */
 /* Change History:                                                                                                      */
 /* -------------------------------------------------------------------------------------------------------------------- */
